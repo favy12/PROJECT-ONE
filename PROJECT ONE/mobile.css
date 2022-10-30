@@ -1,0 +1,180 @@
+
+
+@media screen and (max-width: 1024px){
+    
+    
+}
+
+@media screen and (max-width: 800px) and (min-width: 280px){
+    .svgbox1{
+        top: 45%;
+        right: 7%;
+        /* opacity: 0.5; */
+        
+    }
+
+    .svgbox2{
+        height:60px;
+        width:60px;
+        top: 15%;
+        left: 5%;
+        
+    }
+
+    .svgcircle3{
+        top: 45%;
+        left: 5%;
+        opacity: 0.5;
+        
+    }
+    .section2-heading{
+        padding-bottom: 20px;
+    }
+
+    .col-2{
+        display: none;
+    }
+    .col-1{
+        width: 50px;
+    }
+
+    .footer{
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+    }
+    
+    .footer-content{
+        display: grid;
+        gap: 10px 20px;
+    }
+
+    .get{
+        display: none;
+    }
+
+    .hamburger{
+        display:block;
+    }
+
+    .hamburger.active{
+        background-color: var(--primcol);
+        z-index: 10;
+        position: fixed;
+        right: 0%;
+        top: 15%;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--primcol);
+        height: 100vh;
+        width:100%;
+        text-align: center;
+        transition: 0.3s;
+        z-index: 10;
+    }
+
+    .nav-item{
+        margin: 16px 0;
+    }
+
+    .nav-menu.active{
+        left: 0;
+    }
+
+    .accordion-wrapper{
+        width: 100%;
+    }
+
+    .plan>ul>li{
+        font-size: 1.2rem;
+        line-height: 35px;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 600px){
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    .col1-head{
+        text-align: center;
+    }
+
+    .company-socials1{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .main2,.col2-head, .company-socials,.company-socials1>h4 {
+        display: none;
+    }
+    .main1{
+        text-align: center;
+    }
+
+    /* designing mobile download buttons */
+    .download-buttons{
+        display: flex;
+        font-family: var(--ff);
+        font-size: 0.5rem;
+        line-height: 1rem;
+        text-decoration: none;
+        text-align: start;
+    }
+
+    .desk-icon{display: none;}
+    .mob-icon{display: block;}
+    
+    
+    
+    .appstore{
+        background-color: #FFFFFF;
+        padding: 1.4px 2.5px;
+        color: #000000;
+        border: none;
+        border-radius: 5px;
+        width: inherit;
+        
+    }
+    
+    
+    .google{
+        background-color: #000000;
+        padding: 1.4px 2.5px;
+        border-radius: 5px;
+        color: #FFFFFF;
+    }
+    
+    .second{
+        font-size:1.3em;
+    }
+
+
+}
